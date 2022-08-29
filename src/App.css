@@ -1,38 +1,19 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  padding: 64px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1 {
+  padding-bottom: 2rem;
+  font-size: 3.75rem;
+  width: fit-content;
+  margin: 0
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form button.MuiButton-root{
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  font-family: Barlow;
+  text-transform: unset;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  margin-top: 0!important;
 }

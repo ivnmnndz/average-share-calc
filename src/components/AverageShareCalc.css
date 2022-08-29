@@ -1,0 +1,87 @@
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+form > div {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label span {
+  align-self: flex-start;
+}
+
+.MuiFormControl-root {
+  width: 40% !important;
+}
+
+.trade-info {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  flex-direction: column;
+}
+
+.reminder {
+  font-family: "Fira Mono", monospace;
+  font-size: 0.85rem;
+  align-self: flex-start;
+  margin: 0;
+}
+
+.trade-info-card {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.trade-info-card-inside {
+  border: 1px solid #ddd;
+  margin-right: 30px;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.bigheader {
+  font-size: 1.5rem;
+  font-family: "Barlow";
+  font-weight: 100;
+}
+
+.MuiFormControl-root label,
+.MuiFormControl-root input {
+  font-family: "Fira Mono", monospace;
+}
+
+form .MuiFormControl-root {
+  margin-top: 0 !important;
+  padding-right: 20px;
+}
+
+.highlight {
+  font-size: 4rem;
+  font-family: "Barlow";
+  font-weight: 100;
+}
+
+h3 {
+  font-family: "Barlow";
+}
+
+.trade-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
